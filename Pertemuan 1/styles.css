@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcomeMSG {
+    display: grid;
+    justify-content: center;
+    font-size: larger;
+}
+
+.formInput ul {
+    display: flex;
+    justify-content: space-between;
+    width: 32%
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.radiolist {
+    display: grid;
+
+}
+
+.buttonSub {
+    display: flex;
+    justify-content: space-between;
+    width: 40%
+}
+
+.paragraph p {
+    font-size: 28px;
+    text-align: justify;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kontak</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <nav class="navbar">
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="mainBody">
+            <h1>Formulir Kontak:</h1>
+            <div class="formInput">
+                <ul>
+                    <li>Nama:</li>
+                    <li><input type="text" id="nama" name="nama"></li>
+                </ul>
+            </div>
+            <div class="radioList">
+                <p>Kewarganegaraan:</p>
+                <input type="radio" id="wni" name="citizenship" value="WNI">
+                <label for="wni">WNI</label>
+                <br>
+                <input type="radio" id="asing" name="citizenship" value="Asing">
+                <label for="asing">Asing</label>
+                <br>
+            </div>
+            <div class="layananList">
+                <p>Layanan:</p>
+                <input type="checkbox" id="website" name="website[]" value="Website">
+                <label for="website">Website</label>
+                <br>
+                <input type="checkbox" id="hosting" name="website[]" value="Hosting">
+                <label for="hosting">Hosting</label>
+                <br>
+            </div>
+            <br>
+            <div class="buttonSub">
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Hapus">
+            </div>
+    </form>
+</body>
+
+</html>
