@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Garamond';
+}
+
+.banner img {
+    width: 1900px;
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: underline 0.1em;
+    text-decoration-color: rgb(0, 0, 0);
+    text-underline-offset: 0.1em;
+    transition: color 0.2s, text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+nav li a:hover {
+    color: rgb(185, 108, 205);
+    text-decoration-color: rgb(185, 108, 205);
+}
+
+.berita {
+    margin-bottom: 100px;
+    clear: left;
+}
+
+nav ul {
+    /* display: flex;
+    justify-content: space-between; */
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.main-body {
+    margin-left: 10px;
+}
+
+.main-body2 {
+    margin-left: 10px;
+}
+
+.main-body2 p {
+    margin-bottom: 20px;
+}
+
+.main-body img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+.main-body h1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main-body2 img {
+    display: block;
+    width: 50%;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-body p {
+    font-size: 20px;
+}
+
+.line {
+    border-top: 2px solid rgb(185, 108, 205);
+    margin: auto;
+}
+
+.main-body2 p {
+    font-size: 20px;
+}
